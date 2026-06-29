@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Pointerbench-Sheets, please cite it as below."
+title: "Pointerbench-Sheets: A GUI Grounding Benchmark for Spreadsheets"
+authors:
+  - name: "Pointerbench-Sheets contributors"
+version: "1.0.0"
+date-released: "2026-06-17"
+url: "https://github.com/warmwindOS/pointerbench"
+license: "CC-BY-4.0"

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Pointerbench-Pro, please cite it as below."
+title: "Pointerbench-Pro: A GUI Grounding Benchmark for Professional Software"
+authors:
+  - name: "Pointerbench-Pro contributors"
+version: "1.0.0"
+date-released: "2026-06-18"
+url: "https://github.com/warmwindOS/pointerbench"
+license: "CC-BY-4.0"
