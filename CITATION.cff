@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Pointerbench
+message: "If you use Pointerbench, please cite this repository and the dataset."
+type: dataset
+authors:
+  - family-names: Schilling
+    given-names: Maximilian
+    affiliation: "Warmwind AG"
+  - name: "Warmwind AG"
+repository-code: "https://github.com/warmwindOS/pointerbench"
+url: "https://huggingface.co/datasets/WarmwindOS/pointerbench"
+date-released: "2026-06-18"
+license: "CC-BY-4.0"
+keywords:
+  - GUI grounding
+  - computer use
+  - benchmark
+  - screenshots
+  - synthetic data

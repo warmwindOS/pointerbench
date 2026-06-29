@@ -1,0 +1,12 @@
+# Keep GitHub lightweight. Images live on Hugging Face.
+pointerbench-*/data/test/*.png
+
+# Local prediction and report files.
+preds*.jsonl
+predictions*.jsonl
+report*.json
+
+# Python noise.
+__pycache__/
+*.pyc
+.DS_Store

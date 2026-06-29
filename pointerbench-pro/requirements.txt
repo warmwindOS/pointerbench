@@ -1,0 +1,4 @@
+# eval.py needs nothing beyond the Python standard library.
+# These are only for loading the dataset / running inference:
+datasets>=2.14.0
+pillow>=9.0.0
