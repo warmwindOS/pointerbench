@@ -26,7 +26,7 @@ This GitHub repository contains the evaluation scripts, metadata files, and rele
 
 ## Leaderboard
 
-Scores are percentages. The table is ranked by the reported public average across Sheets, Text, and Pro. The Fable 5 row is a uniform 50 percent sample rerun: 250 examples per benchmark, seed 20260702. Other rows are full public report runs unless otherwise noted.
+Scores are percentages. The table is ranked by the reported public average across Sheets, Text, and Pro.
 
 | Rank | Model | Sheets | Text | Pro | Average |
 | ---: | --- | ---: | ---: | ---: | ---: |
@@ -35,29 +35,35 @@ Scores are percentages. The table is ranked by the reported public average acros
 | 3 | `anthropic/claude-sonnet-4.6` | 82.6 | 47.8 | 77.4 | 69.3 |
 | 4 | `anthropic/claude-opus-4.8` | 82.2 | 44.4 | 80.2 | 68.9 |
 | 5 | `warmwind/pointer-1.6` | 77.0 | 49.2 | 76.8 | 67.7 |
-| 6 | `anthropic/claude-opus-4.7` | 73.8 | 36.2 | 75.4 | 61.8 |
-| 7 | `openai/gpt-5.5` | 72.4 | 31.4 | 75.8 | 59.9 |
-| 8 | `openai/gpt-5.4` | 63.2 | 25.0 | 50.4 | 46.2 |
-| 9 | `openai/gpt-5` | 35.2 | 13.6 | 20.2 | 23.0 |
-| 10 | `x-ai/grok-4.20-multi-agent` | 10.6 | 1.4 | 10.0 | 7.3 |
-| 11 | `moonshotai/kimi-k2.5` | 10.8 | 3.4 | 3.0 | 5.7 |
-| 12 | `openai/gpt-5-mini` | 6.0 | 1.4 | 5.8 | 4.4 |
-| 13 | `moonshotai/kimi-k2.6` | 5.6 | 2.8 | 2.8 | 3.7 |
-| 14 | `qwen/qwen3.7-plus` | 5.8 | 0.6 | 3.0 | 3.1 |
-| 15 | `qwen/qwen3.6-flash` | 4.2 | 1.2 | 2.6 | 2.7 |
-| 16 | `minimax/minimax-m3` | 3.6 | 0.4 | 3.6 | 2.5 |
-| 17 | `qwen/qwen3.6-plus` | 3.0 | 0.6 | 3.6 | 2.4 |
-| 18 | `qwen/qwen3-vl-235b-a22b-thinking` | 2.6 | 0.4 | 3.2 | 2.1 |
-| 19 | `qwen/qwen3.5-9b` | 2.0 | 0.2 | 2.6 | 1.6 |
-| 20 | `google/gemini-3.5-flash` | 3.4 | 0.6 | 0.6 | 1.5 |
-| 21 | `openai/gpt-5-nano` | 2.0 | 0.2 | 1.6 | 1.3 |
-| 22 | `moonshotai/kimi-k2.7-code` | 0.4 | 1.8 | 0.8 | 1.0 |
-| 23 | `x-ai/grok-4.3` | 1.2 | 0.0 | 0.0 | 0.4 |
-| 24 | `google/gemini-3.1-pro-preview` | 0.0 | 0.2 | 0.4 | 0.2 |
-| 25 | `google/gemini-3.1-pro-preview-customtools` | 0.0 | 0.4 | 0.0 | 0.1 |
-| 26 | `stepfun/step-3.7-flash` | 0.0 | 0.0 | 0.2 | 0.1 |
-| 27 | `x-ai/grok-build-0.1` | 0.0 | 0.0 | 0.0 | 0.0 |
-| 28 | `xiaomi/mimo-v2.5` | 0.0 | 0.0 | 0.0 | 0.0 |
+| 6 | `openai/gpt-5.6-sol-pro` | 92.0 | 32.0 | 72.0 | 65.3 |
+| 7 | `openai/gpt-5.6-sol` | 92.0 | 30.0 | 74.0 | 65.3 |
+| 8 | `anthropic/claude-opus-4.7` | 73.8 | 36.2 | 75.4 | 61.8 |
+| 9 | `openai/gpt-5.5` | 72.4 | 31.4 | 75.8 | 59.9 |
+| 10 | `openai/gpt-5.6-terra-pro` | 52.0 | 20.0 | 74.0 | 48.7 |
+| 11 | `openai/gpt-5.6-terra` | 50.0 | 22.0 | 70.0 | 47.3 |
+| 12 | `openai/gpt-5.4` | 63.2 | 25.0 | 50.4 | 46.2 |
+| 13 | `openai/gpt-5.6-luna` | 56.0 | 20.0 | 60.0 | 45.3 |
+| 14 | `openai/gpt-5.6-luna-pro` | 54.0 | 18.0 | 62.0 | 44.7 |
+| 15 | `openai/gpt-5` | 35.2 | 13.6 | 20.2 | 23.0 |
+| 16 | `x-ai/grok-4.20-multi-agent` | 10.6 | 1.4 | 10.0 | 7.3 |
+| 17 | `moonshotai/kimi-k2.5` | 10.8 | 3.4 | 3.0 | 5.7 |
+| 18 | `openai/gpt-5-mini` | 6.0 | 1.4 | 5.8 | 4.4 |
+| 19 | `moonshotai/kimi-k2.6` | 5.6 | 2.8 | 2.8 | 3.7 |
+| 20 | `qwen/qwen3.7-plus` | 5.8 | 0.6 | 3.0 | 3.1 |
+| 21 | `qwen/qwen3.6-flash` | 4.2 | 1.2 | 2.6 | 2.7 |
+| 22 | `minimax/minimax-m3` | 3.6 | 0.4 | 3.6 | 2.5 |
+| 23 | `qwen/qwen3.6-plus` | 3.0 | 0.6 | 3.6 | 2.4 |
+| 24 | `qwen/qwen3-vl-235b-a22b-thinking` | 2.6 | 0.4 | 3.2 | 2.1 |
+| 25 | `qwen/qwen3.5-9b` | 2.0 | 0.2 | 2.6 | 1.6 |
+| 26 | `google/gemini-3.5-flash` | 3.4 | 0.6 | 0.6 | 1.5 |
+| 27 | `openai/gpt-5-nano` | 2.0 | 0.2 | 1.6 | 1.3 |
+| 28 | `moonshotai/kimi-k2.7-code` | 0.4 | 1.8 | 0.8 | 1.0 |
+| 29 | `x-ai/grok-4.3` | 1.2 | 0.0 | 0.0 | 0.4 |
+| 30 | `google/gemini-3.1-pro-preview` | 0.0 | 0.2 | 0.4 | 0.2 |
+| 31 | `google/gemini-3.1-pro-preview-customtools` | 0.0 | 0.4 | 0.0 | 0.1 |
+| 32 | `stepfun/step-3.7-flash` | 0.0 | 0.0 | 0.2 | 0.1 |
+| 33 | `x-ai/grok-build-0.1` | 0.0 | 0.0 | 0.0 | 0.0 |
+| 34 | `xiaomi/mimo-v2.5` | 0.0 | 0.0 | 0.0 | 0.0 |
 | - | Center-click baseline | 0.4 | 0.2 | 0.2 | 0.3 |
 
 To add your model to the official benchmark leaderboard, contact https://warmwind.com/contact.
